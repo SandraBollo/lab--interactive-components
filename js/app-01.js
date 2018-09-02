@@ -64,7 +64,22 @@ var pressHTML = `
 `
 
 
+
+
+
+
+
+
 /* 01 - UI TABS :: Your code below.... */
 
-document.querySelector('.ui-tabs__content')
+document.querySelector('.ui-tabs__conten')
   .innerHTML = membershipHTML
+
+document.querySelector('.ui-tabs__conten')
+.innerHTML = programspHTML
+
+document.querySelector('.ui-tabs__content')
+  .innerHTML = screeningspHTML
+
+document.querySelector('.ui-tabs__content')
+    .innerHTML = pressHTML
